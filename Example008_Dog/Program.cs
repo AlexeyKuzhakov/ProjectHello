@@ -1,10 +1,10 @@
-﻿Console.Write("Введите скорость первого друга ");
+﻿Console.Write("Введите скорость первого друга: ");
 int a = Convert.ToInt32(Console.ReadLine()); // Скорость первого друга
 
-Console.Write("Введите скорость второго друга ");
+Console.Write("Введите скорость второго друга: ");
 int b = Convert.ToInt32(Console.ReadLine()); // Скорость второго друга
 
-Console.Write("Введите скорость собаки ");
+Console.Write("Введите скорость собаки: ");
 int d = Convert.ToInt32(Console.ReadLine()); // Скорость собаки
 
 Console.Write("На каком расстоянии друзья встретятся?  ");
@@ -14,7 +14,7 @@ int friend = 2;
 int count = 0;
 int time = 0;
 
-Console.Write("Введите дистанцию ");
+Console.Write("Введите дистанцию: ");
 int distance = Convert.ToInt32(Console.ReadLine()); //Дистанция между друзьями
 
 while(distance > x)
