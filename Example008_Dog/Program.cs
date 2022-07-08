@@ -18,12 +18,12 @@ while(distance > 10)
 
     if (friend == 2)
     {
-        time = distance / (d + b);
+        time = distance / (b + d);
         friend = 1;
     }
 
-distance = distance - (b - a) * time;
+distance = distance - (b + a) * time;
 count = count +1;
 }
 
-Console.WriteLine("Собака пробежит " + distance + " раз");
+Console.WriteLine("Собака пробежит " + count + " раз");
