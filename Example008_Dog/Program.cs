@@ -8,7 +8,7 @@ Console.Write("Введите скорость собаки: ");
 int d = Convert.ToInt32(Console.ReadLine()); // Скорость собаки
 
 Console.Write("На каком расстоянии друзья встретятся?  ");
-int x = Convert.ToInt32(Console.ReadLine()); // Расстояние на котором закончить циклсд
+int x = Convert.ToInt32(Console.ReadLine()); // Расстояние на котором закончить цикл
 
 int friend = 2;
 int count = 0;
