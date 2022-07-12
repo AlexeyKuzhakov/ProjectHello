@@ -5,16 +5,16 @@
 */
 
 Console.Write("Введите число: ");
-int n = int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine()); 
 int i = 1;
 
 Console.Write("Четные числа от 1 до " + n + ": ");
 
-while(i <= n)
+while(i <= n) 
 {
     if(i % 2 ==0)
     {
-        Console.Write(i + " ");
+        Console.Write(i + " "); 
     }
-    i++;
+    i++; 
 }
