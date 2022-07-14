@@ -8,6 +8,9 @@
 
 int[] array = { 61, 21, 30, 49, 5, 64, 17, 81, 29 };
 
-int max = Max(Max(a1, b1, c1), Max(a2, b2, c2), Max(a3, b3, c3));
-
-Console.WriteLine(max);
+int result = Max(
+    Max(array[0], array[1], array[2]),
+    Max(array[3], array[4], array[5]),
+    Max(array[6], array[7], array[8])
+);
+Console.WriteLine(result);

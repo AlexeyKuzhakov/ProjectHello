@@ -15,7 +15,7 @@ void PrintArray(int[]col)
     int position = 0;
     while(position < count)
     {
-        Console.WriteLine(col[position]);
+        Console.Write(col[position] + " ");
         position++;
     }
 }
@@ -44,5 +44,8 @@ FillArray(Array);
 PrintArray(Array);
 Console.WriteLine();
 
-int pos = IndexOf(Array, 42);
+int pos = IndexOf(Array, 5);
 Console.WriteLine(pos);
+
+
+
