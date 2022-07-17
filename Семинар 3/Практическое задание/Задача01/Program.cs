@@ -10,7 +10,7 @@ int num = int.Parse(Console.ReadLine());
 char[] arr = num.ToString().ToCharArray();
 int lenght = arr.Length;
 
-if (lenght < 5 || lenght > 5)
+if (lenght != 5)
 {
     Console.WriteLine("Число " + num + " не пятизначное.");
 }
