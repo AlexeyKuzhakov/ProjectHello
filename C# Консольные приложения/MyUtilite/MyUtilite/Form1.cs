@@ -12,6 +12,7 @@ namespace MyUtilite
 {
     public partial class MyForm : Form
     {
+        int count = 0;
         public MyForm()
         {
             InitializeComponent();
@@ -25,6 +26,29 @@ namespace MyUtilite
         private void tsmiAbout_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Программа мои утилиты, содержит ряд небольших программ, которые могут пригодиться в жизни. А главное научить меня основам программирования на C#. \nАвтор: Кужаков А.А.", "О программе");
+        }
+
+        private void lblCount_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPlus_Click(object sender, EventArgs e)
+        {
+            count++;
+            lblCount.Text = count.ToString();
+        }
+
+        private void btnMinus_Click(object sender, EventArgs e)
+        {
+            count--;
+            lblCount.Text = count.ToString();
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            count = 0;
+            lblCount.Text = Convert.ToString(count);
         }
     }
 }
