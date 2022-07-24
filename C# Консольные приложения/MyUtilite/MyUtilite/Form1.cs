@@ -69,9 +69,9 @@ namespace MyUtilite
                     if (i > 1000) break;
                     }
 
-                    if (i<=1000) tbRandom.AppendText(n + "\n");
+                    if (i<=1000) tbRandom.AppendText(n + "\r\n");
             }
-            else tbRandom.AppendText(n + "\n");
+            else tbRandom.AppendText(n + "\r\n");
         }
 
         private void btnRandomClear_Click(object sender, EventArgs e)
